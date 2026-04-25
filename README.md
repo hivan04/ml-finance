@@ -15,7 +15,7 @@
 
 - After setting up environment (you are continuing on work):
    - If you cannot see (venv) and your name (name) in terminal, like the image
-   [!image](/workspaces/ml-finance/explanation_images/1.png)
+  ![image](https://github.com/hivan04/ml-finance/blob/tutorial/explanation_images/1.png)
    Do the following:
    ```
    git switch your_name
