@@ -1,6 +1,6 @@
 # Machine Learning and Finance Group Project 
 
-### Group Reference for installing venv (*remove this later*)
+### Group Reference for installing venv (*remove this later*) on codespace
 
 ## 1. On your original device
 
@@ -18,16 +18,9 @@ python-m venv venv
 ```
 
 ### Activate it:
-- macOS/Linux:
-    
     ```
     source venv/bin/activate
    ```    
-- Windows:
-    
-    ```
-    venv\Scripts\activate
-    ```
 
 ### Install dependencies:
 ```
@@ -46,3 +39,11 @@ python--version
 ### 🔹 Don’t commit venv
 
 Your repo should include a `.gitignore` like:
+
+### Loading into a branch and pushing
+```
+git checkout name-of-branch
+```
+```
+git push -u origin name-of-branch
+```
