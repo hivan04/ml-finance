@@ -1,41 +1,26 @@
-# Machine Learning and Finance Group Project 
+# Explanation document - How to use this repository
 
-### Group Reference for installing venv (*remove this later*) on codespace
+### Making changes
+1) Load into your branch before starting
+- If it is your first time, do the following
+   ```
+   python -m venv venv
+   ```
+   ```
+   source venv/bin/activate 
+   ```
+   ```
+   pip install requirements.txt 
+   ```
 
-### Create a new virtual environment:
-```
-python -m venv venv
-```
-
-### Activate it:
-   ```  
-    source venv/bin/activate
-   ```    
-
-### Install dependencies:
-
-```
-pip install-r requirements.txt
-```
-
-# ⚠️ Important tips
-
-### 🔹 Match Python version
-
-Make sure both machines use the **same Python version**:
-```
-python --version
-```
-
-### 🔹 Don’t commit venv
-
-Your repo should include a `.gitignore` like:
-
-### Loading into a branch and pushing
-
-```
-git checkout name-of-branch
-```
-```
-git push -u origin name-of-branch
-```
+- After setting up environment (you are continuing on work):
+   - If you cannot see (venv) and your name (name) in terminal, like the image
+   [!image](/workspaces/ml-finance/explanation_images/1.png)
+   Do the following:
+   ```
+   git switch your_name
+   ```
+   ```
+   source venv/bin/activate 
+   ```
+   
