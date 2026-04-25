@@ -2,16 +2,6 @@
 
 ### Group Reference for installing venv (*remove this later*) on codespace
 
-## 1. On your original device
-
-Activate your venv and export dependencies:
-```
-pip freeze > requirements.txt
-```
-Commit `requirements.txt` to your repo.
-
-## 2. On the new device (after cloning repo)
-
 ### Create a new virtual environment:
 ```
 python -m venv venv
