@@ -1,6 +1,6 @@
 # Machine Learning and Finance Group Project 
 
-### Group Reference (*Remove this later*)
+### Group Reference for installing venv (*remove this later*)
 
 ## 1. On your original device
 
