@@ -14,15 +14,16 @@ Commit `requirements.txt` to your repo.
 
 ### Create a new virtual environment:
 ```
-python-m venv venv
+python -m venv venv
 ```
 
 ### Activate it:
-    ```
+   ```  
     source venv/bin/activate
    ```    
 
 ### Install dependencies:
+
 ```
 pip install-r requirements.txt
 ```
@@ -33,7 +34,7 @@ pip install-r requirements.txt
 
 Make sure both machines use the **same Python version**:
 ```
-python--version
+python --version
 ```
 
 ### 🔹 Don’t commit venv
@@ -41,6 +42,7 @@ python--version
 Your repo should include a `.gitignore` like:
 
 ### Loading into a branch and pushing
+
 ```
 git checkout name-of-branch
 ```
