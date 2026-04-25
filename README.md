@@ -14,7 +14,7 @@
    ```
 
 - After setting up environment (you are continuing on work):
-   - If you cannot see (venv) and your name (name) in terminal, like the image
+   - If you cannot see (venv) and your name [it should be your name instead of (tutorial)] in terminal, like the image<br>
   ![image](https://github.com/hivan04/ml-finance/blob/tutorial/explanation_images/1.png)
    Do the following:
    ```
