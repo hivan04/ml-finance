@@ -53,5 +53,17 @@
       ```
 
 ## Pulling from a repository
-If you want to pull a file from a specific branch (e.g. you want to)
-
+If you want to pull a file from a specific branch (e.g. you want to pull the pdf of the coursework to add it to your branch)
+- Again, make sure you are in your branch:
+      ```
+      git switch 'your_name' 
+      git branch
+      ```
+- Then run the following (*path/to/file is the file you want to copy into your branch, e.g.: misc/Dividend_Signal_Alpha_Coursework_Final.pdf*):
+      ```
+      git fetch 
+      git checkout main -- path/to/file
+      git add path/to/file
+      git commit -m "copy file from main"
+      git push
+      ```
