@@ -1,6 +1,6 @@
 # Explanation document - How to use this repository
 
-### Making changes
+## Loading into your branch
 1) Load into your branch before starting
 - If it is your first time, do the following
    ```
@@ -26,7 +26,7 @@
    ```
    source venv/bin/activate 
    ```
-
+## Updating your repository 
 2) To make any changes/updates to your repository, do the following (**ensure you have saved the file(s) you want to upload**) 
 **Make sure you are in your branch**<br>
 
@@ -51,4 +51,7 @@
       git commit -m "write something here"
       git push
       ```
+
+## Pulling from a repository
+If you want to pull a file from a specific branch (e.g. you want to)
 
