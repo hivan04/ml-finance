@@ -26,4 +26,29 @@
    ```
    source venv/bin/activate 
    ```
+
+2) To make any changes/updates to your repository, do the following (**ensure you have saved the file(s) you want to upload**) 
+**Make sure you are in your branch**<br>
+
+![image](https://github.com/hivan04/ml-finance/blob/tutorial/explanation_images/2.png)<br>
+
+*You can check yourself by running the following (you should see an * next to your name if you are in your branch)*
+   ```
+   git branch
+   ```
    
+- If you just want to update everything (easiest method for updating repository)
+   ```
+   git add .
+   git commit -m "write something here"
+   git push
+   ```
+
+- If you only want to upload a specific file, instead of '.', write the file path name 
+   - You can find the file path name by right-clicking on the file and clicking ''copy path''
+      ```
+      git add '/put_pathname_here'
+      git commit -m "write something here"
+      git push
+      ```
+
